@@ -56,7 +56,7 @@ function checkAnswer(currentLevel) {
     } 
     } else {
         console.log("wrong");
-        $("#level-title").text("Game over click me or Press any key to restart");
+        $("#level-title").text("Game over click Here or Press any key to restart");
         setTimeout(function () {
             playSound("wrong");
           }, 200);
